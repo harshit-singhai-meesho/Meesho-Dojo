@@ -1,5 +1,16 @@
 {
   "name": "meesho-dojo",
-  "owner": { "name": "Meesho" },
-  "plugins": []
+  "owner": {
+    "name": "Meesho"
+  },
+  "plugins": [
+    {
+      "name": "golden-set",
+      "source": "plugins/golden-set",
+      "description": "Add a question to the Meesho Memory / UCL evaluation golden set",
+      "version": "0.1.0",
+      "author": "harshit.singhai@meesho.com",
+      "category": "ucl"
+    }
+  ]
 }
